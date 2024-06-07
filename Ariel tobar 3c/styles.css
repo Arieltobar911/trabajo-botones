@@ -1,0 +1,34 @@
+*{
+    margin: 0; /* genera espacio entre los elementos */ 
+    padding: 0; /* establece relleno de los elementos */
+}
+
+.btn-search, .btn-add, .btn-new{
+    display: block; /*pone los objetos de linea recta a linea abajo */
+    margin-bottom: 10px; /* agrega distancia entre los objetos/botones */
+    height: 40px; /* altura de los botones */
+}
+
+.btn-search{
+    background-color: #fff; /* color del fondo del objeto */
+    border: 2px solid #7dc8c8; /* color borde y su tamaño */
+    color: #7dc8c8; /* color letras */
+    border-radius: 20px; /* defino los bordes */
+    width: 100px; /* agrega ancho */
+    font-weight: 900; /* nos ayuda a darle grosor al texto/fuente del boton */
+}
+
+.btn-add{
+    width: 40px; 
+    background-color: #00d1b2; /* color del boton  */
+    color: #fff; /* color del add/boton mas (tambien para letras sirve) */
+    border-radius: 50%;
+    border: none; /* elimina bordes */
+}
+.btn-new{
+    width: 150px;
+    background-color: #2b78e4;
+    color: #fff; 
+    border: 2px solid #000;
+    box-shadow: 3px 3px black; /* agrega sombra a los bordes *//*cada PX le da sombra a cada lado (4 veces el PX como maximo) */
+}
